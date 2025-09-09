@@ -82,4 +82,53 @@
     text-align: center;  
 }
 
+
 /* plant a tree styles */
+.plant_tree_container{
+    background-color: #166534;
+    text-align: center;
+    color: white;
+    /* align-items: center; */
+}
+.plant_tree_header{
+    padding: 100px 635px 40px 635px;
+}
+.plant_form_container{
+    background-color: #15803D;
+    margin: 0px 635px 100px 635px;
+    /* margin-bottom: 100px; */
+    border-radius: 12px;
+    /* padding-bottom: 100px; */
+}
+.plant_form_input{
+    padding: 12px ;
+    min-width: 570px;
+    margin: 12px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    border-style: none;
+}
+.plant_form{
+    /* display: flex; */
+    padding: 40px 40px 40px 20px;
+}
+.plant_btn{
+    background-color: #166534;
+    color: #166534;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 238px 12px 238px;
+    background-color: #FACC15;
+    border-radius: 999px;
+
+}
+
+/* footer styles */
+.footer{
+    background-color: #14532D;
+    color: white;
+    text-align: center;
+    padding: 24px 803px 24px 803px;
+    font-size: 14px;
+}
