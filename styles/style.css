@@ -2,6 +2,8 @@
 .inter_font {
     font-family: "Inter", sans-serif;
   }
+
+  /* navigation styles */
 .nav_container{
     display: flex;
     justify-content: space-between;
@@ -29,3 +31,55 @@
     border-radius: 999px;
     /* cursor: pointer; */
 }
+
+/* banner styles */
+.banner_container{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 60px 135px 60px 135px; */
+    align-items: center;
+    gap: 100px;
+    background-color: #CFF0DC;
+}
+.banner_description{
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+}
+
+/* campaign styles */
+.campaign_container{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 60px 135px 60px 135px; */
+    align-items: center;
+    gap: 30px;
+    margin: 0px 415px 100px 415px;
+}
+
+/* impact styles */
+.impact_container{
+    background-color: #CFF0DC;
+}
+.impact_sub_container{
+    display: grid;
+    justify-items: center;
+    padding: 100px 135px 100px 135px;
+    
+}
+.impact_divs_container{
+    display: flex;
+    gap: 50px;
+    /* justify-content: space-between; */
+}
+.impact_divs{
+    background-color: white;
+    min-width: 525px;
+    min-height: 155px;
+    border-radius: 12px;
+}
+.impact_divs_texts{
+    padding: 40px 40px 40px 40px;
+    text-align: center;  
+}
+
+/* plant a tree styles */
