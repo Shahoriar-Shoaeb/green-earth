@@ -7,8 +7,15 @@
     <link rel="stylesheet" href="styles/style.css">
 
     <title>Green Earth</title>
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- daisyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body style="min-width: 1920px; background-color: rgb(220, 252, 231, 50%); ">
+<body style="min-width: 1920px; background-color: rgb(220, 252, 231, 50%); background-color: #EDEDED; ">
      <!-- navigation bar -->
     <div class="nav_container inter_font" >
         <div class="nav_name">Green Earth</div>
@@ -37,8 +44,29 @@
          </div>
      </div>
     
+     
+     <!-- Choose trees section -->
+    <h2 class="inter_font" style="text-align: center;">Choose Your trees</h2>
+    <div style="display: flex; gap: 30px; justify-content: space-between;" class="">
+      <section class="choose_trees_section">
+        <h2 style="text-align: center;" class="choose_trees inter_font">categories</h2>
+        <div id="category_container" class=""></div>
+      </section>
+      
+      <section id="trees_container" style="display: grid; grid-template-columns: repeat(3,1fr); gap: 30px;justify-content: center; align-items: center;">
+      </section>
+      <span style="" id="spinner" class="loading loading-infinity loading-xl hidden"></span>
+      <section style="background-color: white; width: 250px; margin-right: 20px; border-radius: 5px;">
+        <h2 class="inter_font" style="padding: 16px;">Your Cart</h2>
+        <div id="cart_container">
+          
+        </div>
+        <h2>Total: $<span id="total">0</span></h2>
+      </section>
+    </div>
+
      <!-- campaign section -->
-      <h2 style="text-align: center;margin-top: 100px;">About the Campaign</h2>
+      <h2 style="text-align: center;margin-top: 100px;" class="inter_font">About the Campaign</h2>
       <div class="campaign_container">
           <div class="">
             <img src="media/about.png" alt="">
@@ -98,6 +126,8 @@
        <div class="footer inter_font">
         <p>© 2025 Green Earth. All Rights Reserved.</p>
        </div>
+
+  <script src="index.js"></script>
 
 </body>
 </html>

@@ -2,6 +2,13 @@
 .inter_font {
     font-family: "Inter", sans-serif;
   }
+  .active {
+    background-color: #166534;
+    color: white;
+  }
+  .hidden{
+    visibility: hidden;
+  }
 
   /* navigation styles */
 .nav_container{
@@ -44,6 +51,13 @@
 .banner_description{
     padding: 100px 0px 100px 0px;
     text-align: center;
+}
+
+/* choose trees styles */
+.trees_container_div{
+    background-color: aquamarine;
+    max-width: 343px;
+    padding: 16px;
 }
 
 /* campaign styles */
